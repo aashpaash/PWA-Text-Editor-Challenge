@@ -30,11 +30,12 @@ THEN I should have a registered service worker using workbox<br>
 WHEN I register a service worker<br>
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets<br>
 WHEN I deploy to Heroku<br>
-THEN I should have proper build scripts for a webpack application<br># PWA-Text-Editor-Challenge
+THEN I should have proper build scripts for a webpack application<br>
 
 ## Cited Sources
-### Starter Code: https://github.com/coding-boot-camp/cautious-meme
+### Code: 
+https://github.com/coding-boot-camp/cautious-meme
 
 ### Docs: 
 mdn web docs_ : https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen <br>
-web.dev : https://web.dev/learn/pwa/installation-prompt/
+web.dev : https://web.dev/learn/pwa/
