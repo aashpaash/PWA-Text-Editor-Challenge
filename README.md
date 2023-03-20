@@ -1,5 +1,8 @@
 # PWA-Text-Editor-Challenge
 
+### Access Links
+Deploy:
+GitHub: https://github.com/aashpaash/PWA-Text-Editor-Challenge
 ## User Story
 AS A developer <br>
 I WANT to create notes or code snippets with or without an internet connection<br>
