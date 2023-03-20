@@ -1,12 +1,17 @@
 {
   "name": "JATE",
   "main": "server.js",
+  "description": "Just A Text Editor",
+  "version": "1.0.0",
   "scripts": {
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
     "dev": "webpack-dev-server",
-    "build": "webpack --mode production",
-    "start": "webpack --watch"
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "start": "npm run build && cd server && node server.js"
   },
-  "author": "2U",
+  "author": "ap",
   "license": "UNLICENSED",
   "devDependencies": {
     "@babel/core": "^7.15.0",
