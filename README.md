@@ -37,7 +37,9 @@ THEN I should have proper build scripts for a webpack application<br>
 
 ## Cited Sources
 ### Code: 
-https://github.com/coding-boot-camp/cautious-meme
+Starter Code: https://github.com/coding-boot-camp/cautious-meme
+Lesson 19-PWA Activities 
+
 
 ### Docs: 
 mdn web docs_ : https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen <br>
